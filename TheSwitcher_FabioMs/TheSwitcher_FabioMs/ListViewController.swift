@@ -13,6 +13,12 @@ class ListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        dataSource.divisions = [
+            "Kitchen",
+            "Living room",
+            "Master bedroom",
+            "Guest's bedroom"
+        ]
         tableView.dataSource = dataSource
     }
     
@@ -33,6 +39,5 @@ class ListViewController: UIViewController {
             detailViewController.lampState = cell.lightState
         }
     }
-
 }
 

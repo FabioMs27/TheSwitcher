@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79C77ACE25D45BDB00E6C86C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77ACD25D45BDB00E6C86C /* AppDelegate.m */; };
+		79C77AD125D45BDB00E6C86C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77AD025D45BDB00E6C86C /* SceneDelegate.m */; };
+		79C77AD425D45BDB00E6C86C /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77AD325D45BDB00E6C86C /* ListViewController.m */; };
+		79C77AD925D45BDE00E6C86C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C77AD825D45BDE00E6C86C /* Assets.xcassets */; };
+		79C77ADC25D45BDE00E6C86C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C77ADA25D45BDE00E6C86C /* LaunchScreen.storyboard */; };
+		79C77ADF25D45BDE00E6C86C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77ADE25D45BDE00E6C86C /* main.m */; };
+		79C77AE925D45BDF00E6C86C /* TheSwitcher_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77AE825D45BDF00E6C86C /* TheSwitcher_ObjCTests.m */; };
+		79C77AF425D45BDF00E6C86C /* TheSwitcher_ObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77AF325D45BDF00E6C86C /* TheSwitcher_ObjCUITests.m */; };
+		79C77B1225D45DF200E6C86C /* DivisionDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77B1125D45DF200E6C86C /* DivisionDataSource.m */; };
+		79C77B1B25D45ED000E6C86C /* DivisionsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77B1A25D45ED000E6C86C /* DivisionsCell.m */; };
+		79C77B2A25D460A000E6C86C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77B2925D460A000E6C86C /* DetailViewController.m */; };
+		79C77B5E25D46A6200E6C86C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C77B5C25D46A6200E6C86C /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79C77AE525D45BDE00E6C86C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79C77AC125D45BDB00E6C86C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C77AC825D45BDB00E6C86C;
+			remoteInfo = TheSwitcher_ObjC;
+		};
+		79C77AF025D45BDF00E6C86C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79C77AC125D45BDB00E6C86C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C77AC825D45BDB00E6C86C;
+			remoteInfo = TheSwitcher_ObjC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79C77AC925D45BDB00E6C86C /* TheSwitcher_ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheSwitcher_ObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C77ACC25D45BDB00E6C86C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79C77ACD25D45BDB00E6C86C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79C77ACF25D45BDB00E6C86C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		79C77AD025D45BDB00E6C86C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		79C77AD225D45BDB00E6C86C /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		79C77AD325D45BDB00E6C86C /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		79C77AD825D45BDE00E6C86C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79C77ADB25D45BDE00E6C86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79C77ADD25D45BDE00E6C86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79C77ADE25D45BDE00E6C86C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79C77AE425D45BDE00E6C86C /* TheSwitcher_ObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheSwitcher_ObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C77AE825D45BDF00E6C86C /* TheSwitcher_ObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheSwitcher_ObjCTests.m; sourceTree = "<group>"; };
+		79C77AEA25D45BDF00E6C86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79C77AEF25D45BDF00E6C86C /* TheSwitcher_ObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheSwitcher_ObjCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C77AF325D45BDF00E6C86C /* TheSwitcher_ObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheSwitcher_ObjCUITests.m; sourceTree = "<group>"; };
+		79C77AF525D45BDF00E6C86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79C77B1025D45DF200E6C86C /* DivisionDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DivisionDataSource.h; sourceTree = "<group>"; };
+		79C77B1125D45DF200E6C86C /* DivisionDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DivisionDataSource.m; sourceTree = "<group>"; };
+		79C77B1925D45ED000E6C86C /* DivisionsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DivisionsCell.h; sourceTree = "<group>"; };
+		79C77B1A25D45ED000E6C86C /* DivisionsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DivisionsCell.m; sourceTree = "<group>"; };
+		79C77B2825D460A000E6C86C /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		79C77B2925D460A000E6C86C /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		79C77B5D25D46A6200E6C86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79C77AC625D45BDB00E6C86C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C77AE125D45BDE00E6C86C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C77AEC25D45BDF00E6C86C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79C77AC025D45BDB00E6C86C = {
+			isa = PBXGroup;
+			children = (
+				79C77ACB25D45BDB00E6C86C /* TheSwitcher_ObjC */,
+				79C77AE725D45BDE00E6C86C /* TheSwitcher_ObjCTests */,
+				79C77AF225D45BDF00E6C86C /* TheSwitcher_ObjCUITests */,
+				79C77ACA25D45BDB00E6C86C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79C77ACA25D45BDB00E6C86C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79C77AC925D45BDB00E6C86C /* TheSwitcher_ObjC.app */,
+				79C77AE425D45BDE00E6C86C /* TheSwitcher_ObjCTests.xctest */,
+				79C77AEF25D45BDF00E6C86C /* TheSwitcher_ObjCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79C77ACB25D45BDB00E6C86C /* TheSwitcher_ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				79C77B0F25D45DC400E6C86C /* ListTableView */,
+				79C77B0E25D45D8A00E6C86C /* ViewControllers */,
+				79C77B0D25D45D7E00E6C86C /* App */,
+				79C77B5C25D46A6200E6C86C /* Main.storyboard */,
+				79C77AD825D45BDE00E6C86C /* Assets.xcassets */,
+				79C77ADA25D45BDE00E6C86C /* LaunchScreen.storyboard */,
+				79C77ADD25D45BDE00E6C86C /* Info.plist */,
+				79C77ADE25D45BDE00E6C86C /* main.m */,
+			);
+			path = TheSwitcher_ObjC;
+			sourceTree = "<group>";
+		};
+		79C77AE725D45BDE00E6C86C /* TheSwitcher_ObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				79C77AE825D45BDF00E6C86C /* TheSwitcher_ObjCTests.m */,
+				79C77AEA25D45BDF00E6C86C /* Info.plist */,
+			);
+			path = TheSwitcher_ObjCTests;
+			sourceTree = "<group>";
+		};
+		79C77AF225D45BDF00E6C86C /* TheSwitcher_ObjCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79C77AF325D45BDF00E6C86C /* TheSwitcher_ObjCUITests.m */,
+				79C77AF525D45BDF00E6C86C /* Info.plist */,
+			);
+			path = TheSwitcher_ObjCUITests;
+			sourceTree = "<group>";
+		};
+		79C77B0D25D45D7E00E6C86C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				79C77ACC25D45BDB00E6C86C /* AppDelegate.h */,
+				79C77ACD25D45BDB00E6C86C /* AppDelegate.m */,
+				79C77ACF25D45BDB00E6C86C /* SceneDelegate.h */,
+				79C77AD025D45BDB00E6C86C /* SceneDelegate.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		79C77B0E25D45D8A00E6C86C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				79C77AD225D45BDB00E6C86C /* ListViewController.h */,
+				79C77AD325D45BDB00E6C86C /* ListViewController.m */,
+				79C77B2825D460A000E6C86C /* DetailViewController.h */,
+				79C77B2925D460A000E6C86C /* DetailViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		79C77B0F25D45DC400E6C86C /* ListTableView */ = {
+			isa = PBXGroup;
+			children = (
+				79C77B1025D45DF200E6C86C /* DivisionDataSource.h */,
+				79C77B1125D45DF200E6C86C /* DivisionDataSource.m */,
+				79C77B1925D45ED000E6C86C /* DivisionsCell.h */,
+				79C77B1A25D45ED000E6C86C /* DivisionsCell.m */,
+			);
+			path = ListTableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79C77AC825D45BDB00E6C86C /* TheSwitcher_ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79C77AF825D45BDF00E6C86C /* Build configuration list for PBXNativeTarget "TheSwitcher_ObjC" */;
+			buildPhases = (
+				79C77AC525D45BDB00E6C86C /* Sources */,
+				79C77AC625D45BDB00E6C86C /* Frameworks */,
+				79C77AC725D45BDB00E6C86C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheSwitcher_ObjC;
+			productName = TheSwitcher_ObjC;
+			productReference = 79C77AC925D45BDB00E6C86C /* TheSwitcher_ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79C77AE325D45BDE00E6C86C /* TheSwitcher_ObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79C77AFB25D45BDF00E6C86C /* Build configuration list for PBXNativeTarget "TheSwitcher_ObjCTests" */;
+			buildPhases = (
+				79C77AE025D45BDE00E6C86C /* Sources */,
+				79C77AE125D45BDE00E6C86C /* Frameworks */,
+				79C77AE225D45BDE00E6C86C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79C77AE625D45BDE00E6C86C /* PBXTargetDependency */,
+			);
+			name = TheSwitcher_ObjCTests;
+			productName = TheSwitcher_ObjCTests;
+			productReference = 79C77AE425D45BDE00E6C86C /* TheSwitcher_ObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79C77AEE25D45BDF00E6C86C /* TheSwitcher_ObjCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79C77AFE25D45BDF00E6C86C /* Build configuration list for PBXNativeTarget "TheSwitcher_ObjCUITests" */;
+			buildPhases = (
+				79C77AEB25D45BDF00E6C86C /* Sources */,
+				79C77AEC25D45BDF00E6C86C /* Frameworks */,
+				79C77AED25D45BDF00E6C86C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79C77AF125D45BDF00E6C86C /* PBXTargetDependency */,
+			);
+			name = TheSwitcher_ObjCUITests;
+			productName = TheSwitcher_ObjCUITests;
+			productReference = 79C77AEF25D45BDF00E6C86C /* TheSwitcher_ObjCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79C77AC125D45BDB00E6C86C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					79C77AC825D45BDB00E6C86C = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					79C77AE325D45BDE00E6C86C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 79C77AC825D45BDB00E6C86C;
+					};
+					79C77AEE25D45BDF00E6C86C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 79C77AC825D45BDB00E6C86C;
+					};
+				};
+			};
+			buildConfigurationList = 79C77AC425D45BDB00E6C86C /* Build configuration list for PBXProject "TheSwitcher_ObjC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79C77AC025D45BDB00E6C86C;
+			productRefGroup = 79C77ACA25D45BDB00E6C86C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79C77AC825D45BDB00E6C86C /* TheSwitcher_ObjC */,
+				79C77AE325D45BDE00E6C86C /* TheSwitcher_ObjCTests */,
+				79C77AEE25D45BDF00E6C86C /* TheSwitcher_ObjCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79C77AC725D45BDB00E6C86C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C77B5E25D46A6200E6C86C /* Main.storyboard in Resources */,
+				79C77ADC25D45BDE00E6C86C /* LaunchScreen.storyboard in Resources */,
+				79C77AD925D45BDE00E6C86C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C77AE225D45BDE00E6C86C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C77AED25D45BDF00E6C86C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79C77AC525D45BDB00E6C86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C77AD425D45BDB00E6C86C /* ListViewController.m in Sources */,
+				79C77ACE25D45BDB00E6C86C /* AppDelegate.m in Sources */,
+				79C77B1225D45DF200E6C86C /* DivisionDataSource.m in Sources */,
+				79C77ADF25D45BDE00E6C86C /* main.m in Sources */,
+				79C77B1B25D45ED000E6C86C /* DivisionsCell.m in Sources */,
+				79C77AD125D45BDB00E6C86C /* SceneDelegate.m in Sources */,
+				79C77B2A25D460A000E6C86C /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C77AE025D45BDE00E6C86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C77AE925D45BDF00E6C86C /* TheSwitcher_ObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C77AEB25D45BDF00E6C86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C77AF425D45BDF00E6C86C /* TheSwitcher_ObjCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79C77AE625D45BDE00E6C86C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79C77AC825D45BDB00E6C86C /* TheSwitcher_ObjC */;
+			targetProxy = 79C77AE525D45BDE00E6C86C /* PBXContainerItemProxy */;
+		};
+		79C77AF125D45BDF00E6C86C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79C77AC825D45BDB00E6C86C /* TheSwitcher_ObjC */;
+			targetProxy = 79C77AF025D45BDF00E6C86C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79C77ADA25D45BDE00E6C86C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79C77ADB25D45BDE00E6C86C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		79C77B5C25D46A6200E6C86C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79C77B5D25D46A6200E6C86C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79C77AF625D45BDF00E6C86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79C77AF725D45BDF00E6C86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79C77AF925D45BDF00E6C86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY575KUK4V;
+				INFOPLIST_FILE = TheSwitcher_ObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fabio.TheSwitcher-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79C77AFA25D45BDF00E6C86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY575KUK4V;
+				INFOPLIST_FILE = TheSwitcher_ObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fabio.TheSwitcher-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79C77AFC25D45BDF00E6C86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY575KUK4V;
+				INFOPLIST_FILE = TheSwitcher_ObjCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fabio.TheSwitcher-ObjCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheSwitcher_ObjC.app/TheSwitcher_ObjC";
+			};
+			name = Debug;
+		};
+		79C77AFD25D45BDF00E6C86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY575KUK4V;
+				INFOPLIST_FILE = TheSwitcher_ObjCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fabio.TheSwitcher-ObjCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheSwitcher_ObjC.app/TheSwitcher_ObjC";
+			};
+			name = Release;
+		};
+		79C77AFF25D45BDF00E6C86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY575KUK4V;
+				INFOPLIST_FILE = TheSwitcher_ObjCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fabio.TheSwitcher-ObjCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheSwitcher_ObjC;
+			};
+			name = Debug;
+		};
+		79C77B0025D45BDF00E6C86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY575KUK4V;
+				INFOPLIST_FILE = TheSwitcher_ObjCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fabio.TheSwitcher-ObjCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheSwitcher_ObjC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79C77AC425D45BDB00E6C86C /* Build configuration list for PBXProject "TheSwitcher_ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C77AF625D45BDF00E6C86C /* Debug */,
+				79C77AF725D45BDF00E6C86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79C77AF825D45BDF00E6C86C /* Build configuration list for PBXNativeTarget "TheSwitcher_ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C77AF925D45BDF00E6C86C /* Debug */,
+				79C77AFA25D45BDF00E6C86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79C77AFB25D45BDF00E6C86C /* Build configuration list for PBXNativeTarget "TheSwitcher_ObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C77AFC25D45BDF00E6C86C /* Debug */,
+				79C77AFD25D45BDF00E6C86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79C77AFE25D45BDF00E6C86C /* Build configuration list for PBXNativeTarget "TheSwitcher_ObjCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C77AFF25D45BDF00E6C86C /* Debug */,
+				79C77B0025D45BDF00E6C86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79C77AC125D45BDB00E6C86C /* Project object */;
+}

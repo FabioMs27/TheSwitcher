@@ -20,6 +20,7 @@ class DetailViewController: UIViewController {
         divisionTextLabel.text = division.formatting
         lampStateLabel.text = lampState ? "ON" : "OFF"
         lampImageView.image = lampState ? #imageLiteral(resourceName: "light_image_ON") : #imageLiteral(resourceName: "light_image_OFF")
+        navigationItem.title = division
     }
 
 }

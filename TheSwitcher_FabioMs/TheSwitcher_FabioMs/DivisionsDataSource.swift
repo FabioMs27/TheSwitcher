@@ -8,7 +8,7 @@
 import UIKit
 
 class DivisionsDataSource: NSObject {
-    let divisions = ["Kitchen","Living room","Master bedroom","Guest's bedroom"]
+    var divisions = [String]()
 }
 
 extension DivisionsDataSource: UITableViewDataSource {
