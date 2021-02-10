@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		79D806BC25D439AE005BD83F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D806BB25D439AE005BD83F /* AppDelegate.swift */; };
 		79D806BE25D439AE005BD83F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D806BD25D439AE005BD83F /* SceneDelegate.swift */; };
-		79D806C025D439AE005BD83F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D806BF25D439AE005BD83F /* ViewController.swift */; };
+		79D806C025D439AE005BD83F /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D806BF25D439AE005BD83F /* ListViewController.swift */; };
 		79D806C325D439AE005BD83F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D806C125D439AE005BD83F /* Main.storyboard */; };
 		79D806C525D439B0005BD83F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79D806C425D439B0005BD83F /* Assets.xcassets */; };
 		79D806C825D439B0005BD83F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D806C625D439B0005BD83F /* LaunchScreen.storyboard */; };
 		79D806D325D439B1005BD83F /* TheSwitcher_FabioMsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D806D225D439B1005BD83F /* TheSwitcher_FabioMsTests.swift */; };
 		79D806DE25D439B1005BD83F /* TheSwitcher_FabioMsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D806DD25D439B1005BD83F /* TheSwitcher_FabioMsUITests.swift */; };
+		79D806F225D44477005BD83F /* DivisionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D806F125D44477005BD83F /* DivisionsCell.swift */; };
+		79D806FA25D4456C005BD83F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D806F925D4456C005BD83F /* DetailViewController.swift */; };
+		79D806FF25D445F0005BD83F /* DivisionsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D806FE25D445F0005BD83F /* DivisionsDataSource.swift */; };
+		79D8070725D44CDE005BD83F /* Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D8070625D44CDE005BD83F /* Formatting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,7 @@
 		79D806B825D439AE005BD83F /* TheSwitcher_FabioMs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheSwitcher_FabioMs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79D806BB25D439AE005BD83F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79D806BD25D439AE005BD83F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		79D806BF25D439AE005BD83F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79D806BF25D439AE005BD83F /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		79D806C225D439AE005BD83F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79D806C425D439B0005BD83F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79D806C725D439B0005BD83F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		79D806D925D439B1005BD83F /* TheSwitcher_FabioMsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheSwitcher_FabioMsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79D806DD25D439B1005BD83F /* TheSwitcher_FabioMsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSwitcher_FabioMsUITests.swift; sourceTree = "<group>"; };
 		79D806DF25D439B1005BD83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79D806F125D44477005BD83F /* DivisionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionsCell.swift; sourceTree = "<group>"; };
+		79D806F925D4456C005BD83F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		79D806FE25D445F0005BD83F /* DivisionsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionsDataSource.swift; sourceTree = "<group>"; };
+		79D8070625D44CDE005BD83F /* Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +109,15 @@
 			children = (
 				79D806BB25D439AE005BD83F /* AppDelegate.swift */,
 				79D806BD25D439AE005BD83F /* SceneDelegate.swift */,
-				79D806BF25D439AE005BD83F /* ViewController.swift */,
+				79D806BF25D439AE005BD83F /* ListViewController.swift */,
+				79D806F925D4456C005BD83F /* DetailViewController.swift */,
 				79D806C125D439AE005BD83F /* Main.storyboard */,
 				79D806C425D439B0005BD83F /* Assets.xcassets */,
 				79D806C625D439B0005BD83F /* LaunchScreen.storyboard */,
 				79D806C925D439B0005BD83F /* Info.plist */,
+				79D806F125D44477005BD83F /* DivisionsCell.swift */,
+				79D806FE25D445F0005BD83F /* DivisionsDataSource.swift */,
+				79D8070625D44CDE005BD83F /* Formatting.swift */,
 			);
 			path = TheSwitcher_FabioMs;
 			sourceTree = "<group>";
@@ -258,8 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79D806C025D439AE005BD83F /* ViewController.swift in Sources */,
+				79D806C025D439AE005BD83F /* ListViewController.swift in Sources */,
+				79D806FF25D445F0005BD83F /* DivisionsDataSource.swift in Sources */,
 				79D806BC25D439AE005BD83F /* AppDelegate.swift in Sources */,
+				79D806FA25D4456C005BD83F /* DetailViewController.swift in Sources */,
+				79D806F225D44477005BD83F /* DivisionsCell.swift in Sources */,
+				79D8070725D44CDE005BD83F /* Formatting.swift in Sources */,
 				79D806BE25D439AE005BD83F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
