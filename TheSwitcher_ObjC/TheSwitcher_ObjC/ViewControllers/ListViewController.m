@@ -8,7 +8,7 @@
 #import "ListViewController.h"
 
 @interface ListViewController ()
-@property DivisionDataSource *dataSource;
+@property DivisionsDataSource *dataSource;
 @end
 
 @implementation ListViewController
@@ -16,8 +16,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSArray *divisions = @[@"Kitchen",@"Living room",@"Master bedroom",@"Guest's bedroom"];
-    self.dataSource = [[DivisionDataSource alloc] initWith: divisions];
+    self.dataSource = [[DivisionsDataSource alloc] initWith: divisions];
     self.tableView.dataSource = self.dataSource;
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+    if (indexPath) {
+        [self.tableView deselectRowAtIndexPath: indexPath animated: true];
+    }
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
@@ -26,9 +33,8 @@
     DivisionsCell *cell = [self.tableView cellForRowAtIndexPath: indexPath];
     if (indexPath && detailViewController && cell) {
         bool isOn = [cell.lightSwitch isOn];
-        detailViewController.divisionStatusLabel.text = isOn ? @"ON" : @"OFF";
-        detailViewController.lampImageView.image = [UIImage imageNamed: isOn ? @"light_image_ON" : @"light_image_OFF"];
-        detailViewController.divisionTextLabel.text = [NSString stringWithFormat: @"Your %@ light is", cell.divisionLabel.text];
+        detailViewController.status = isOn;
+        detailViewController.division = cell.divisionLabel.text;
     }
 }
 

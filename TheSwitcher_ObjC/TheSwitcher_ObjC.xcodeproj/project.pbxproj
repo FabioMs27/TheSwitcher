@@ -7,80 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		79C77ACE25D45BDB00E6C86C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77ACD25D45BDB00E6C86C /* AppDelegate.m */; };
-		79C77AD125D45BDB00E6C86C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77AD025D45BDB00E6C86C /* SceneDelegate.m */; };
-		79C77AD425D45BDB00E6C86C /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77AD325D45BDB00E6C86C /* ListViewController.m */; };
-		79C77AD925D45BDE00E6C86C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C77AD825D45BDE00E6C86C /* Assets.xcassets */; };
-		79C77ADC25D45BDE00E6C86C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C77ADA25D45BDE00E6C86C /* LaunchScreen.storyboard */; };
-		79C77ADF25D45BDE00E6C86C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77ADE25D45BDE00E6C86C /* main.m */; };
-		79C77AE925D45BDF00E6C86C /* TheSwitcher_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77AE825D45BDF00E6C86C /* TheSwitcher_ObjCTests.m */; };
-		79C77AF425D45BDF00E6C86C /* TheSwitcher_ObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77AF325D45BDF00E6C86C /* TheSwitcher_ObjCUITests.m */; };
-		79C77B1225D45DF200E6C86C /* DivisionDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77B1125D45DF200E6C86C /* DivisionDataSource.m */; };
-		79C77B1B25D45ED000E6C86C /* DivisionsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77B1A25D45ED000E6C86C /* DivisionsCell.m */; };
-		79C77B2A25D460A000E6C86C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77B2925D460A000E6C86C /* DetailViewController.m */; };
-		79C77B5E25D46A6200E6C86C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C77B5C25D46A6200E6C86C /* Main.storyboard */; };
+		79C77B7325D50D0100E6C86C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77B7225D50D0100E6C86C /* AppDelegate.m */; };
+		79C77B7625D50D0100E6C86C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77B7525D50D0100E6C86C /* SceneDelegate.m */; };
+		79C77B7C25D50D0100E6C86C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C77B7A25D50D0100E6C86C /* Main.storyboard */; };
+		79C77B7E25D50D0500E6C86C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C77B7D25D50D0500E6C86C /* Assets.xcassets */; };
+		79C77B8125D50D0500E6C86C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C77B7F25D50D0500E6C86C /* LaunchScreen.storyboard */; };
+		79C77B8425D50D0500E6C86C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77B8325D50D0500E6C86C /* main.m */; };
+		79C77B8E25D50D0500E6C86C /* TheSwitcher_ObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77B8D25D50D0500E6C86C /* TheSwitcher_ObjcTests.m */; };
+		79C77B9925D50D0500E6C86C /* TheSwitcher_ObjcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77B9825D50D0500E6C86C /* TheSwitcher_ObjcUITests.m */; };
+		79C77BB125D50D7400E6C86C /* DivisionsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77BB025D50D7400E6C86C /* DivisionsDataSource.m */; };
+		79C77BBA25D50D8800E6C86C /* DivisionsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77BB925D50D8800E6C86C /* DivisionsCell.m */; };
+		79C77BC025D50D9A00E6C86C /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77BBF25D50D9A00E6C86C /* ListViewController.m */; };
+		79C77BC625D50DA500E6C86C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77BC525D50DA500E6C86C /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		79C77AE525D45BDE00E6C86C /* PBXContainerItemProxy */ = {
+		79C77B8A25D50D0500E6C86C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 79C77AC125D45BDB00E6C86C /* Project object */;
+			containerPortal = 79C77B6625D50D0100E6C86C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 79C77AC825D45BDB00E6C86C;
-			remoteInfo = TheSwitcher_ObjC;
+			remoteGlobalIDString = 79C77B6D25D50D0100E6C86C;
+			remoteInfo = TheSwitcher_Objc;
 		};
-		79C77AF025D45BDF00E6C86C /* PBXContainerItemProxy */ = {
+		79C77B9525D50D0500E6C86C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 79C77AC125D45BDB00E6C86C /* Project object */;
+			containerPortal = 79C77B6625D50D0100E6C86C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 79C77AC825D45BDB00E6C86C;
-			remoteInfo = TheSwitcher_ObjC;
+			remoteGlobalIDString = 79C77B6D25D50D0100E6C86C;
+			remoteInfo = TheSwitcher_Objc;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		79C77AC925D45BDB00E6C86C /* TheSwitcher_ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheSwitcher_ObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		79C77ACC25D45BDB00E6C86C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		79C77ACD25D45BDB00E6C86C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		79C77ACF25D45BDB00E6C86C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		79C77AD025D45BDB00E6C86C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		79C77AD225D45BDB00E6C86C /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
-		79C77AD325D45BDB00E6C86C /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
-		79C77AD825D45BDE00E6C86C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		79C77ADB25D45BDE00E6C86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		79C77ADD25D45BDE00E6C86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79C77ADE25D45BDE00E6C86C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		79C77AE425D45BDE00E6C86C /* TheSwitcher_ObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheSwitcher_ObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		79C77AE825D45BDF00E6C86C /* TheSwitcher_ObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheSwitcher_ObjCTests.m; sourceTree = "<group>"; };
-		79C77AEA25D45BDF00E6C86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79C77AEF25D45BDF00E6C86C /* TheSwitcher_ObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheSwitcher_ObjCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		79C77AF325D45BDF00E6C86C /* TheSwitcher_ObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheSwitcher_ObjCUITests.m; sourceTree = "<group>"; };
-		79C77AF525D45BDF00E6C86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79C77B1025D45DF200E6C86C /* DivisionDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DivisionDataSource.h; sourceTree = "<group>"; };
-		79C77B1125D45DF200E6C86C /* DivisionDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DivisionDataSource.m; sourceTree = "<group>"; };
-		79C77B1925D45ED000E6C86C /* DivisionsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DivisionsCell.h; sourceTree = "<group>"; };
-		79C77B1A25D45ED000E6C86C /* DivisionsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DivisionsCell.m; sourceTree = "<group>"; };
-		79C77B2825D460A000E6C86C /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		79C77B2925D460A000E6C86C /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		79C77B5D25D46A6200E6C86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79C77B6E25D50D0100E6C86C /* TheSwitcher_Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheSwitcher_Objc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C77B7125D50D0100E6C86C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79C77B7225D50D0100E6C86C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79C77B7425D50D0100E6C86C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		79C77B7525D50D0100E6C86C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		79C77B7B25D50D0100E6C86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79C77B7D25D50D0500E6C86C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79C77B8025D50D0500E6C86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79C77B8225D50D0500E6C86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79C77B8325D50D0500E6C86C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79C77B8925D50D0500E6C86C /* TheSwitcher_ObjcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheSwitcher_ObjcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C77B8D25D50D0500E6C86C /* TheSwitcher_ObjcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheSwitcher_ObjcTests.m; sourceTree = "<group>"; };
+		79C77B8F25D50D0500E6C86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79C77B9425D50D0500E6C86C /* TheSwitcher_ObjcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheSwitcher_ObjcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C77B9825D50D0500E6C86C /* TheSwitcher_ObjcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheSwitcher_ObjcUITests.m; sourceTree = "<group>"; };
+		79C77B9A25D50D0500E6C86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79C77BAF25D50D7400E6C86C /* DivisionsDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DivisionsDataSource.h; sourceTree = "<group>"; };
+		79C77BB025D50D7400E6C86C /* DivisionsDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DivisionsDataSource.m; sourceTree = "<group>"; };
+		79C77BB825D50D8800E6C86C /* DivisionsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DivisionsCell.h; sourceTree = "<group>"; };
+		79C77BB925D50D8800E6C86C /* DivisionsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DivisionsCell.m; sourceTree = "<group>"; };
+		79C77BBE25D50D9A00E6C86C /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		79C77BBF25D50D9A00E6C86C /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		79C77BC425D50DA500E6C86C /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		79C77BC525D50DA500E6C86C /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		79C77AC625D45BDB00E6C86C /* Frameworks */ = {
+		79C77B6B25D50D0100E6C86C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79C77AE125D45BDE00E6C86C /* Frameworks */ = {
+		79C77B8625D50D0500E6C86C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79C77AEC25D45BDF00E6C86C /* Frameworks */ = {
+		79C77B9125D50D0500E6C86C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,88 +90,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		79C77AC025D45BDB00E6C86C = {
+		79C77B6525D50D0100E6C86C = {
 			isa = PBXGroup;
 			children = (
-				79C77ACB25D45BDB00E6C86C /* TheSwitcher_ObjC */,
-				79C77AE725D45BDE00E6C86C /* TheSwitcher_ObjCTests */,
-				79C77AF225D45BDF00E6C86C /* TheSwitcher_ObjCUITests */,
-				79C77ACA25D45BDB00E6C86C /* Products */,
+				79C77B7025D50D0100E6C86C /* TheSwitcher_Objc */,
+				79C77B8C25D50D0500E6C86C /* TheSwitcher_ObjcTests */,
+				79C77B9725D50D0500E6C86C /* TheSwitcher_ObjcUITests */,
+				79C77B6F25D50D0100E6C86C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		79C77ACA25D45BDB00E6C86C /* Products */ = {
+		79C77B6F25D50D0100E6C86C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				79C77AC925D45BDB00E6C86C /* TheSwitcher_ObjC.app */,
-				79C77AE425D45BDE00E6C86C /* TheSwitcher_ObjCTests.xctest */,
-				79C77AEF25D45BDF00E6C86C /* TheSwitcher_ObjCUITests.xctest */,
+				79C77B6E25D50D0100E6C86C /* TheSwitcher_Objc.app */,
+				79C77B8925D50D0500E6C86C /* TheSwitcher_ObjcTests.xctest */,
+				79C77B9425D50D0500E6C86C /* TheSwitcher_ObjcUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		79C77ACB25D45BDB00E6C86C /* TheSwitcher_ObjC */ = {
+		79C77B7025D50D0100E6C86C /* TheSwitcher_Objc */ = {
 			isa = PBXGroup;
 			children = (
-				79C77B0F25D45DC400E6C86C /* ListTableView */,
-				79C77B0E25D45D8A00E6C86C /* ViewControllers */,
-				79C77B0D25D45D7E00E6C86C /* App */,
-				79C77B5C25D46A6200E6C86C /* Main.storyboard */,
-				79C77AD825D45BDE00E6C86C /* Assets.xcassets */,
-				79C77ADA25D45BDE00E6C86C /* LaunchScreen.storyboard */,
-				79C77ADD25D45BDE00E6C86C /* Info.plist */,
-				79C77ADE25D45BDE00E6C86C /* main.m */,
+				79C77BA925D50D2900E6C86C /* App */,
+				79C77BAB25D50D3D00E6C86C /* ListTableView */,
+				79C77BAA25D50D2E00E6C86C /* ViewControllers */,
+				79C77B7A25D50D0100E6C86C /* Main.storyboard */,
+				79C77B7D25D50D0500E6C86C /* Assets.xcassets */,
+				79C77B7F25D50D0500E6C86C /* LaunchScreen.storyboard */,
+				79C77B8225D50D0500E6C86C /* Info.plist */,
+				79C77B8325D50D0500E6C86C /* main.m */,
 			);
-			path = TheSwitcher_ObjC;
+			path = TheSwitcher_Objc;
 			sourceTree = "<group>";
 		};
-		79C77AE725D45BDE00E6C86C /* TheSwitcher_ObjCTests */ = {
+		79C77B8C25D50D0500E6C86C /* TheSwitcher_ObjcTests */ = {
 			isa = PBXGroup;
 			children = (
-				79C77AE825D45BDF00E6C86C /* TheSwitcher_ObjCTests.m */,
-				79C77AEA25D45BDF00E6C86C /* Info.plist */,
+				79C77B8D25D50D0500E6C86C /* TheSwitcher_ObjcTests.m */,
+				79C77B8F25D50D0500E6C86C /* Info.plist */,
 			);
-			path = TheSwitcher_ObjCTests;
+			path = TheSwitcher_ObjcTests;
 			sourceTree = "<group>";
 		};
-		79C77AF225D45BDF00E6C86C /* TheSwitcher_ObjCUITests */ = {
+		79C77B9725D50D0500E6C86C /* TheSwitcher_ObjcUITests */ = {
 			isa = PBXGroup;
 			children = (
-				79C77AF325D45BDF00E6C86C /* TheSwitcher_ObjCUITests.m */,
-				79C77AF525D45BDF00E6C86C /* Info.plist */,
+				79C77B9825D50D0500E6C86C /* TheSwitcher_ObjcUITests.m */,
+				79C77B9A25D50D0500E6C86C /* Info.plist */,
 			);
-			path = TheSwitcher_ObjCUITests;
+			path = TheSwitcher_ObjcUITests;
 			sourceTree = "<group>";
 		};
-		79C77B0D25D45D7E00E6C86C /* App */ = {
+		79C77BA925D50D2900E6C86C /* App */ = {
 			isa = PBXGroup;
 			children = (
-				79C77ACC25D45BDB00E6C86C /* AppDelegate.h */,
-				79C77ACD25D45BDB00E6C86C /* AppDelegate.m */,
-				79C77ACF25D45BDB00E6C86C /* SceneDelegate.h */,
-				79C77AD025D45BDB00E6C86C /* SceneDelegate.m */,
+				79C77B7125D50D0100E6C86C /* AppDelegate.h */,
+				79C77B7225D50D0100E6C86C /* AppDelegate.m */,
+				79C77B7425D50D0100E6C86C /* SceneDelegate.h */,
+				79C77B7525D50D0100E6C86C /* SceneDelegate.m */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		79C77B0E25D45D8A00E6C86C /* ViewControllers */ = {
+		79C77BAA25D50D2E00E6C86C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				79C77AD225D45BDB00E6C86C /* ListViewController.h */,
-				79C77AD325D45BDB00E6C86C /* ListViewController.m */,
-				79C77B2825D460A000E6C86C /* DetailViewController.h */,
-				79C77B2925D460A000E6C86C /* DetailViewController.m */,
+				79C77BBE25D50D9A00E6C86C /* ListViewController.h */,
+				79C77BBF25D50D9A00E6C86C /* ListViewController.m */,
+				79C77BC425D50DA500E6C86C /* DetailViewController.h */,
+				79C77BC525D50DA500E6C86C /* DetailViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		79C77B0F25D45DC400E6C86C /* ListTableView */ = {
+		79C77BAB25D50D3D00E6C86C /* ListTableView */ = {
 			isa = PBXGroup;
 			children = (
-				79C77B1025D45DF200E6C86C /* DivisionDataSource.h */,
-				79C77B1125D45DF200E6C86C /* DivisionDataSource.m */,
-				79C77B1925D45ED000E6C86C /* DivisionsCell.h */,
-				79C77B1A25D45ED000E6C86C /* DivisionsCell.m */,
+				79C77BAF25D50D7400E6C86C /* DivisionsDataSource.h */,
+				79C77BB025D50D7400E6C86C /* DivisionsDataSource.m */,
+				79C77BB825D50D8800E6C86C /* DivisionsCell.h */,
+				79C77BB925D50D8800E6C86C /* DivisionsCell.m */,
 			);
 			path = ListTableView;
 			sourceTree = "<group>";
@@ -179,81 +179,81 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		79C77AC825D45BDB00E6C86C /* TheSwitcher_ObjC */ = {
+		79C77B6D25D50D0100E6C86C /* TheSwitcher_Objc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79C77AF825D45BDF00E6C86C /* Build configuration list for PBXNativeTarget "TheSwitcher_ObjC" */;
+			buildConfigurationList = 79C77B9D25D50D0500E6C86C /* Build configuration list for PBXNativeTarget "TheSwitcher_Objc" */;
 			buildPhases = (
-				79C77AC525D45BDB00E6C86C /* Sources */,
-				79C77AC625D45BDB00E6C86C /* Frameworks */,
-				79C77AC725D45BDB00E6C86C /* Resources */,
+				79C77B6A25D50D0100E6C86C /* Sources */,
+				79C77B6B25D50D0100E6C86C /* Frameworks */,
+				79C77B6C25D50D0100E6C86C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TheSwitcher_ObjC;
-			productName = TheSwitcher_ObjC;
-			productReference = 79C77AC925D45BDB00E6C86C /* TheSwitcher_ObjC.app */;
+			name = TheSwitcher_Objc;
+			productName = TheSwitcher_Objc;
+			productReference = 79C77B6E25D50D0100E6C86C /* TheSwitcher_Objc.app */;
 			productType = "com.apple.product-type.application";
 		};
-		79C77AE325D45BDE00E6C86C /* TheSwitcher_ObjCTests */ = {
+		79C77B8825D50D0500E6C86C /* TheSwitcher_ObjcTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79C77AFB25D45BDF00E6C86C /* Build configuration list for PBXNativeTarget "TheSwitcher_ObjCTests" */;
+			buildConfigurationList = 79C77BA025D50D0500E6C86C /* Build configuration list for PBXNativeTarget "TheSwitcher_ObjcTests" */;
 			buildPhases = (
-				79C77AE025D45BDE00E6C86C /* Sources */,
-				79C77AE125D45BDE00E6C86C /* Frameworks */,
-				79C77AE225D45BDE00E6C86C /* Resources */,
+				79C77B8525D50D0500E6C86C /* Sources */,
+				79C77B8625D50D0500E6C86C /* Frameworks */,
+				79C77B8725D50D0500E6C86C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				79C77AE625D45BDE00E6C86C /* PBXTargetDependency */,
+				79C77B8B25D50D0500E6C86C /* PBXTargetDependency */,
 			);
-			name = TheSwitcher_ObjCTests;
-			productName = TheSwitcher_ObjCTests;
-			productReference = 79C77AE425D45BDE00E6C86C /* TheSwitcher_ObjCTests.xctest */;
+			name = TheSwitcher_ObjcTests;
+			productName = TheSwitcher_ObjcTests;
+			productReference = 79C77B8925D50D0500E6C86C /* TheSwitcher_ObjcTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		79C77AEE25D45BDF00E6C86C /* TheSwitcher_ObjCUITests */ = {
+		79C77B9325D50D0500E6C86C /* TheSwitcher_ObjcUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79C77AFE25D45BDF00E6C86C /* Build configuration list for PBXNativeTarget "TheSwitcher_ObjCUITests" */;
+			buildConfigurationList = 79C77BA325D50D0500E6C86C /* Build configuration list for PBXNativeTarget "TheSwitcher_ObjcUITests" */;
 			buildPhases = (
-				79C77AEB25D45BDF00E6C86C /* Sources */,
-				79C77AEC25D45BDF00E6C86C /* Frameworks */,
-				79C77AED25D45BDF00E6C86C /* Resources */,
+				79C77B9025D50D0500E6C86C /* Sources */,
+				79C77B9125D50D0500E6C86C /* Frameworks */,
+				79C77B9225D50D0500E6C86C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				79C77AF125D45BDF00E6C86C /* PBXTargetDependency */,
+				79C77B9625D50D0500E6C86C /* PBXTargetDependency */,
 			);
-			name = TheSwitcher_ObjCUITests;
-			productName = TheSwitcher_ObjCUITests;
-			productReference = 79C77AEF25D45BDF00E6C86C /* TheSwitcher_ObjCUITests.xctest */;
+			name = TheSwitcher_ObjcUITests;
+			productName = TheSwitcher_ObjcUITests;
+			productReference = 79C77B9425D50D0500E6C86C /* TheSwitcher_ObjcUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		79C77AC125D45BDB00E6C86C /* Project object */ = {
+		79C77B6625D50D0100E6C86C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					79C77AC825D45BDB00E6C86C = {
+					79C77B6D25D50D0100E6C86C = {
 						CreatedOnToolsVersion = 12.3;
 					};
-					79C77AE325D45BDE00E6C86C = {
+					79C77B8825D50D0500E6C86C = {
 						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 79C77AC825D45BDB00E6C86C;
+						TestTargetID = 79C77B6D25D50D0100E6C86C;
 					};
-					79C77AEE25D45BDF00E6C86C = {
+					79C77B9325D50D0500E6C86C = {
 						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 79C77AC825D45BDB00E6C86C;
+						TestTargetID = 79C77B6D25D50D0100E6C86C;
 					};
 				};
 			};
-			buildConfigurationList = 79C77AC425D45BDB00E6C86C /* Build configuration list for PBXProject "TheSwitcher_ObjC" */;
+			buildConfigurationList = 79C77B6925D50D0100E6C86C /* Build configuration list for PBXProject "TheSwitcher_Objc" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -261,37 +261,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 79C77AC025D45BDB00E6C86C;
-			productRefGroup = 79C77ACA25D45BDB00E6C86C /* Products */;
+			mainGroup = 79C77B6525D50D0100E6C86C;
+			productRefGroup = 79C77B6F25D50D0100E6C86C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				79C77AC825D45BDB00E6C86C /* TheSwitcher_ObjC */,
-				79C77AE325D45BDE00E6C86C /* TheSwitcher_ObjCTests */,
-				79C77AEE25D45BDF00E6C86C /* TheSwitcher_ObjCUITests */,
+				79C77B6D25D50D0100E6C86C /* TheSwitcher_Objc */,
+				79C77B8825D50D0500E6C86C /* TheSwitcher_ObjcTests */,
+				79C77B9325D50D0500E6C86C /* TheSwitcher_ObjcUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		79C77AC725D45BDB00E6C86C /* Resources */ = {
+		79C77B6C25D50D0100E6C86C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79C77B5E25D46A6200E6C86C /* Main.storyboard in Resources */,
-				79C77ADC25D45BDE00E6C86C /* LaunchScreen.storyboard in Resources */,
-				79C77AD925D45BDE00E6C86C /* Assets.xcassets in Resources */,
+				79C77B8125D50D0500E6C86C /* LaunchScreen.storyboard in Resources */,
+				79C77B7E25D50D0500E6C86C /* Assets.xcassets in Resources */,
+				79C77B7C25D50D0100E6C86C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79C77AE225D45BDE00E6C86C /* Resources */ = {
+		79C77B8725D50D0500E6C86C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79C77AED25D45BDF00E6C86C /* Resources */ = {
+		79C77B9225D50D0500E6C86C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -301,72 +301,72 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		79C77AC525D45BDB00E6C86C /* Sources */ = {
+		79C77B6A25D50D0100E6C86C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79C77AD425D45BDB00E6C86C /* ListViewController.m in Sources */,
-				79C77ACE25D45BDB00E6C86C /* AppDelegate.m in Sources */,
-				79C77B1225D45DF200E6C86C /* DivisionDataSource.m in Sources */,
-				79C77ADF25D45BDE00E6C86C /* main.m in Sources */,
-				79C77B1B25D45ED000E6C86C /* DivisionsCell.m in Sources */,
-				79C77AD125D45BDB00E6C86C /* SceneDelegate.m in Sources */,
-				79C77B2A25D460A000E6C86C /* DetailViewController.m in Sources */,
+				79C77B7325D50D0100E6C86C /* AppDelegate.m in Sources */,
+				79C77B8425D50D0500E6C86C /* main.m in Sources */,
+				79C77BC025D50D9A00E6C86C /* ListViewController.m in Sources */,
+				79C77B7625D50D0100E6C86C /* SceneDelegate.m in Sources */,
+				79C77BB125D50D7400E6C86C /* DivisionsDataSource.m in Sources */,
+				79C77BBA25D50D8800E6C86C /* DivisionsCell.m in Sources */,
+				79C77BC625D50DA500E6C86C /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79C77AE025D45BDE00E6C86C /* Sources */ = {
+		79C77B8525D50D0500E6C86C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79C77AE925D45BDF00E6C86C /* TheSwitcher_ObjCTests.m in Sources */,
+				79C77B8E25D50D0500E6C86C /* TheSwitcher_ObjcTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79C77AEB25D45BDF00E6C86C /* Sources */ = {
+		79C77B9025D50D0500E6C86C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79C77AF425D45BDF00E6C86C /* TheSwitcher_ObjCUITests.m in Sources */,
+				79C77B9925D50D0500E6C86C /* TheSwitcher_ObjcUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		79C77AE625D45BDE00E6C86C /* PBXTargetDependency */ = {
+		79C77B8B25D50D0500E6C86C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 79C77AC825D45BDB00E6C86C /* TheSwitcher_ObjC */;
-			targetProxy = 79C77AE525D45BDE00E6C86C /* PBXContainerItemProxy */;
+			target = 79C77B6D25D50D0100E6C86C /* TheSwitcher_Objc */;
+			targetProxy = 79C77B8A25D50D0500E6C86C /* PBXContainerItemProxy */;
 		};
-		79C77AF125D45BDF00E6C86C /* PBXTargetDependency */ = {
+		79C77B9625D50D0500E6C86C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 79C77AC825D45BDB00E6C86C /* TheSwitcher_ObjC */;
-			targetProxy = 79C77AF025D45BDF00E6C86C /* PBXContainerItemProxy */;
+			target = 79C77B6D25D50D0100E6C86C /* TheSwitcher_Objc */;
+			targetProxy = 79C77B9525D50D0500E6C86C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		79C77ADA25D45BDE00E6C86C /* LaunchScreen.storyboard */ = {
+		79C77B7A25D50D0100E6C86C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				79C77ADB25D45BDE00E6C86C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		79C77B5C25D46A6200E6C86C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				79C77B5D25D46A6200E6C86C /* Base */,
+				79C77B7B25D50D0100E6C86C /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79C77B7F25D50D0500E6C86C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79C77B8025D50D0500E6C86C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		79C77AF625D45BDF00E6C86C /* Debug */ = {
+		79C77B9B25D50D0500E6C86C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -425,7 +425,7 @@
 			};
 			name = Debug;
 		};
-		79C77AF725D45BDF00E6C86C /* Release */ = {
+		79C77B9C25D50D0500E6C86C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -478,158 +478,158 @@
 			};
 			name = Release;
 		};
-		79C77AF925D45BDF00E6C86C /* Debug */ = {
+		79C77B9E25D50D0500E6C86C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BY575KUK4V;
-				INFOPLIST_FILE = TheSwitcher_ObjC/Info.plist;
+				INFOPLIST_FILE = TheSwitcher_Objc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "fabio.TheSwitcher-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "fabio.TheSwitcher-Objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		79C77AFA25D45BDF00E6C86C /* Release */ = {
+		79C77B9F25D50D0500E6C86C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BY575KUK4V;
-				INFOPLIST_FILE = TheSwitcher_ObjC/Info.plist;
+				INFOPLIST_FILE = TheSwitcher_Objc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "fabio.TheSwitcher-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "fabio.TheSwitcher-Objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		79C77AFC25D45BDF00E6C86C /* Debug */ = {
+		79C77BA125D50D0500E6C86C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BY575KUK4V;
-				INFOPLIST_FILE = TheSwitcher_ObjCTests/Info.plist;
+				INFOPLIST_FILE = TheSwitcher_ObjcTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "fabio.TheSwitcher-ObjCTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "fabio.TheSwitcher-ObjcTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheSwitcher_ObjC.app/TheSwitcher_ObjC";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheSwitcher_Objc.app/TheSwitcher_Objc";
 			};
 			name = Debug;
 		};
-		79C77AFD25D45BDF00E6C86C /* Release */ = {
+		79C77BA225D50D0500E6C86C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BY575KUK4V;
-				INFOPLIST_FILE = TheSwitcher_ObjCTests/Info.plist;
+				INFOPLIST_FILE = TheSwitcher_ObjcTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "fabio.TheSwitcher-ObjCTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "fabio.TheSwitcher-ObjcTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheSwitcher_ObjC.app/TheSwitcher_ObjC";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheSwitcher_Objc.app/TheSwitcher_Objc";
 			};
 			name = Release;
 		};
-		79C77AFF25D45BDF00E6C86C /* Debug */ = {
+		79C77BA425D50D0500E6C86C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BY575KUK4V;
-				INFOPLIST_FILE = TheSwitcher_ObjCUITests/Info.plist;
+				INFOPLIST_FILE = TheSwitcher_ObjcUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "fabio.TheSwitcher-ObjCUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "fabio.TheSwitcher-ObjcUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TheSwitcher_ObjC;
+				TEST_TARGET_NAME = TheSwitcher_Objc;
 			};
 			name = Debug;
 		};
-		79C77B0025D45BDF00E6C86C /* Release */ = {
+		79C77BA525D50D0500E6C86C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BY575KUK4V;
-				INFOPLIST_FILE = TheSwitcher_ObjCUITests/Info.plist;
+				INFOPLIST_FILE = TheSwitcher_ObjcUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "fabio.TheSwitcher-ObjCUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "fabio.TheSwitcher-ObjcUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TheSwitcher_ObjC;
+				TEST_TARGET_NAME = TheSwitcher_Objc;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		79C77AC425D45BDB00E6C86C /* Build configuration list for PBXProject "TheSwitcher_ObjC" */ = {
+		79C77B6925D50D0100E6C86C /* Build configuration list for PBXProject "TheSwitcher_Objc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79C77AF625D45BDF00E6C86C /* Debug */,
-				79C77AF725D45BDF00E6C86C /* Release */,
+				79C77B9B25D50D0500E6C86C /* Debug */,
+				79C77B9C25D50D0500E6C86C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79C77AF825D45BDF00E6C86C /* Build configuration list for PBXNativeTarget "TheSwitcher_ObjC" */ = {
+		79C77B9D25D50D0500E6C86C /* Build configuration list for PBXNativeTarget "TheSwitcher_Objc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79C77AF925D45BDF00E6C86C /* Debug */,
-				79C77AFA25D45BDF00E6C86C /* Release */,
+				79C77B9E25D50D0500E6C86C /* Debug */,
+				79C77B9F25D50D0500E6C86C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79C77AFB25D45BDF00E6C86C /* Build configuration list for PBXNativeTarget "TheSwitcher_ObjCTests" */ = {
+		79C77BA025D50D0500E6C86C /* Build configuration list for PBXNativeTarget "TheSwitcher_ObjcTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79C77AFC25D45BDF00E6C86C /* Debug */,
-				79C77AFD25D45BDF00E6C86C /* Release */,
+				79C77BA125D50D0500E6C86C /* Debug */,
+				79C77BA225D50D0500E6C86C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79C77AFE25D45BDF00E6C86C /* Build configuration list for PBXNativeTarget "TheSwitcher_ObjCUITests" */ = {
+		79C77BA325D50D0500E6C86C /* Build configuration list for PBXNativeTarget "TheSwitcher_ObjcUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79C77AFF25D45BDF00E6C86C /* Debug */,
-				79C77B0025D45BDF00E6C86C /* Release */,
+				79C77BA425D50D0500E6C86C /* Debug */,
+				79C77BA525D50D0500E6C86C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 79C77AC125D45BDB00E6C86C /* Project object */;
+	rootObject = 79C77B6625D50D0100E6C86C /* Project object */;
 }

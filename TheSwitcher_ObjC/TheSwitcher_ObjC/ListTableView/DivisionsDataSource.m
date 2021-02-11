@@ -5,9 +5,9 @@
 //  Created by Fábio Maciel de Sousa on 10/02/21.
 //
 
-#import "DivisionDataSource.h"
+#import "DivisionsDataSource.h"
 
-@implementation DivisionDataSource
+@implementation DivisionsDataSource
 
 - (id)initWith:(NSArray *)divisions {
     self.divisions = divisions;

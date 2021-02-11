@@ -10,9 +10,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface DetailViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIImageView *lampImageView;
-@property (weak, nonatomic) IBOutlet UILabel *divisionTextLabel;
-@property (weak, nonatomic) IBOutlet UILabel *divisionStatusLabel;
+@property UIImage *image;
+@property NSString *division;
+@property bool status;
 @end
 
 NS_ASSUME_NONNULL_END

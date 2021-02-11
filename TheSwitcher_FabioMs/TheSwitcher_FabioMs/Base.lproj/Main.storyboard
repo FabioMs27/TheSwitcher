@@ -17,21 +17,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Waz-1J-Nzx">
-                                <rect key="frame" x="20" y="88" width="374" height="774"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DivisionsCell" rowHeight="80" id="tZL-M4-NXe" customClass="DivisionsCell" customModule="TheSwitcher_FabioMs" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="374" height="80"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tZL-M4-NXe" id="BAB-Yg-bdd">
-                                            <rect key="frame" x="0.0" y="0.0" width="374" height="80"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="19A-yg-ZFQ">
-                                                    <rect key="frame" x="323" y="24.5" width="51" height="31"/>
+                                                    <rect key="frame" x="345" y="24.5" width="51" height="31"/>
                                                 </switch>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kitchen" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79p-Fe-GJC">
-                                                    <rect key="frame" x="0.0" y="30" width="58" height="20.5"/>
+                                                    <rect key="frame" x="20" y="30" width="58" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -39,13 +39,14 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="19A-yg-ZFQ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="79p-Fe-GJC" secondAttribute="trailing" constant="8" id="L5J-Vv-bAt"/>
-                                                <constraint firstItem="79p-Fe-GJC" firstAttribute="leading" secondItem="BAB-Yg-bdd" secondAttribute="leading" id="dak-o8-lm4"/>
+                                                <constraint firstItem="79p-Fe-GJC" firstAttribute="leading" secondItem="BAB-Yg-bdd" secondAttribute="leadingMargin" id="dak-o8-lm4"/>
                                                 <constraint firstItem="19A-yg-ZFQ" firstAttribute="centerY" secondItem="BAB-Yg-bdd" secondAttribute="centerY" id="h8Y-IK-q9D"/>
                                                 <constraint firstItem="79p-Fe-GJC" firstAttribute="centerY" secondItem="BAB-Yg-bdd" secondAttribute="centerY" id="xHL-6Q-bkL"/>
-                                                <constraint firstAttribute="trailing" secondItem="19A-yg-ZFQ" secondAttribute="trailing" constant="2" id="z3g-hZ-6w3"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="19A-yg-ZFQ" secondAttribute="trailing" id="z3g-hZ-6w3"/>
                                             </constraints>
+                                            <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="20" bottom="8" trailing="20"/>
                                         </tableViewCellContentView>
-                                        <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="separatorInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
                                         <connections>
                                             <outlet property="divisionLabel" destination="79p-Fe-GJC" id="rQ8-rU-7RS"/>
                                             <outlet property="lightSwitch" destination="19A-yg-ZFQ" id="4VE-in-sdb"/>
@@ -58,12 +59,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="rightMargin" secondItem="Waz-1J-Nzx" secondAttribute="right" id="PaJ-jg-KE4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="right" secondItem="Waz-1J-Nzx" secondAttribute="right" id="PaJ-jg-KE4"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Waz-1J-Nzx" secondAttribute="bottom" id="T9g-jM-VFd"/>
-                            <constraint firstItem="Waz-1J-Nzx" firstAttribute="left" secondItem="8bC-Xf-vdC" secondAttribute="leftMargin" id="YAR-Hf-c29"/>
+                            <constraint firstItem="Waz-1J-Nzx" firstAttribute="left" secondItem="6Tk-OE-BBY" secondAttribute="left" id="YAR-Hf-c29"/>
                             <constraint firstItem="Waz-1J-Nzx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="bie-RZ-E7V"/>
                         </constraints>
-                        <directionalEdgeInsets key="directionalLayoutMargins" top="0.0" leading="20" bottom="0.0" trailing="20"/>
                     </view>
                     <navigationItem key="navigationItem" title="Switcher App" id="Sck-HM-E98">
                         <barButtonItem key="backBarButtonItem" title="Back" id="Y9i-43-FN0"/>

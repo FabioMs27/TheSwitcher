@@ -6,7 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DivisionDataSource.h"
+#import "DivisionsDataSource.h"
 #import "DetailViewController.h"
 
 @interface ListViewController : UIViewController

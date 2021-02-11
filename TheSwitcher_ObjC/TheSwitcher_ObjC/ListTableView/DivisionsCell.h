@@ -10,8 +10,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface DivisionsCell : UITableViewCell
-@property (weak, nonatomic) IBOutlet UILabel *divisionLabel;
 @property (weak, nonatomic) IBOutlet UISwitch *lightSwitch;
+@property (weak, nonatomic) IBOutlet UILabel *divisionLabel;
 @end
 
 NS_ASSUME_NONNULL_END

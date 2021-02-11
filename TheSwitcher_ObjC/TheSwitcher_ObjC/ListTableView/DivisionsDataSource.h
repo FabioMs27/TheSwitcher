@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DivisionDataSource : NSObject <UITableViewDataSource>
+@interface DivisionsDataSource : NSObject <UITableViewDataSource>
 @property NSArray* divisions;
 - (id)initWith:(NSArray *)divisions;
 @end

@@ -1,17 +1,17 @@
 //
-//  TheSwitcher_ObjCUITests.m
-//  TheSwitcher_ObjCUITests
+//  TheSwitcher_ObjcUITests.m
+//  TheSwitcher_ObjcUITests
 //
-//  Created by Fábio Maciel de Sousa on 10/02/21.
+//  Created by Fábio Maciel de Sousa on 11/02/21.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface TheSwitcher_ObjCUITests : XCTestCase
+@interface TheSwitcher_ObjcUITests : XCTestCase
 
 @end
 
-@implementation TheSwitcher_ObjCUITests
+@implementation TheSwitcher_ObjcUITests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.
