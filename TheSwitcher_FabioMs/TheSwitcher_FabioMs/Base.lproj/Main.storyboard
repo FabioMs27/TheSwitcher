@@ -16,33 +16,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Waz-1J-Nzx">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="92" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Waz-1J-Nzx">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DivisionsCell" rowHeight="80" id="tZL-M4-NXe" customClass="DivisionsCell" customModule="TheSwitcher_FabioMs" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="80"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DivisionsCell" rowHeight="100" id="tZL-M4-NXe" customClass="DivisionsCell" customModule="TheSwitcher_FabioMs" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tZL-M4-NXe" id="BAB-Yg-bdd">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="19A-yg-ZFQ">
-                                                    <rect key="frame" x="345" y="24.5" width="51" height="31"/>
-                                                </switch>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kitchen" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79p-Fe-GJC">
-                                                    <rect key="frame" x="20" y="30" width="58" height="20.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="YWN-pB-aJX">
+                                                    <rect key="frame" x="20" y="11" width="374" height="78"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kitchen" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79p-Fe-GJC">
+                                                            <rect key="frame" x="0.0" y="29" width="183" height="20.5"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="19A-yg-ZFQ">
+                                                            <rect key="frame" x="325" y="23.5" width="51" height="31"/>
+                                                        </switch>
+                                                    </subviews>
+                                                </stackView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="19A-yg-ZFQ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="79p-Fe-GJC" secondAttribute="trailing" constant="8" id="L5J-Vv-bAt"/>
-                                                <constraint firstItem="79p-Fe-GJC" firstAttribute="leading" secondItem="BAB-Yg-bdd" secondAttribute="leadingMargin" id="dak-o8-lm4"/>
-                                                <constraint firstItem="19A-yg-ZFQ" firstAttribute="centerY" secondItem="BAB-Yg-bdd" secondAttribute="centerY" id="h8Y-IK-q9D"/>
-                                                <constraint firstItem="79p-Fe-GJC" firstAttribute="centerY" secondItem="BAB-Yg-bdd" secondAttribute="centerY" id="xHL-6Q-bkL"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="19A-yg-ZFQ" secondAttribute="trailing" id="z3g-hZ-6w3"/>
+                                                <constraint firstItem="YWN-pB-aJX" firstAttribute="top" secondItem="BAB-Yg-bdd" secondAttribute="topMargin" id="57G-72-KGv"/>
+                                                <constraint firstItem="YWN-pB-aJX" firstAttribute="leading" secondItem="BAB-Yg-bdd" secondAttribute="leadingMargin" id="hlO-XK-36s"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="YWN-pB-aJX" secondAttribute="trailing" id="mmz-qt-djK"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="YWN-pB-aJX" secondAttribute="bottom" id="tpv-rf-cPI"/>
                                             </constraints>
                                             <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="20" bottom="8" trailing="20"/>
                                         </tableViewCellContentView>
@@ -85,20 +89,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="light_image_OFF" translatesAutoresizingMaskIntoConstraints="NO" id="1ed-Lc-ySx">
-                                <rect key="frame" x="0.0" y="88" width="414" height="202"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="200"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="202" id="hfQ-Op-3gK"/>
-                                    <constraint firstAttribute="width" constant="414" id="m7v-Td-MEy"/>
+                                    <constraint firstAttribute="height" constant="200" id="viW-wf-P9g"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OFF" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yFq-kx-Wkf">
-                                <rect key="frame" x="173" y="370" width="68" height="43"/>
+                                <rect key="frame" x="173" y="368" width="68" height="43"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Kitchen light is " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgV-QN-gzj">
-                                <rect key="frame" x="129.5" y="329" width="155" height="21"/>
+                                <rect key="frame" x="129.5" y="327" width="155" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
