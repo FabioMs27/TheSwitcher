@@ -20,7 +20,7 @@
     self.lampImageView.image = [UIImage imageNamed: self.status ? @"light_image_ON" : @"light_image_OFF"];
     self.divisionTextLabel.text = [NSString stringWithFormat: @"Your %@ light is", self.division];
     self.divisionStatusLabel.text = self.status ? @"ON" : @"OFF";
-    
+    self.navigationItem.title = self.division;
 }
 
 

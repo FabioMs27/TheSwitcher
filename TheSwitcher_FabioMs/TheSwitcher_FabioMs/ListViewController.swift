@@ -30,14 +30,14 @@ class ListViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let indexPath = tableView.indexPathForSelectedRow {
-            guard let detailViewController = segue.destination as? DetailViewController,
-                  let cell = tableView.cellForRow(at: indexPath) as? DivisionsCell else {
-                return
-            }
-            detailViewController.division = cell.division
-            detailViewController.lampState = cell.lightState
+        guard let indexPath = tableView.indexPathForSelectedRow,
+              let detailViewController = segue.destination as? DetailViewController,
+              let cell = tableView.cellForRow(at: indexPath) as? DivisionsCell else {
+            return
         }
+        detailViewController.division = cell.division
+        detailViewController.lampState = cell.lightState
+        
     }
 }
 

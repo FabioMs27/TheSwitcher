@@ -18,6 +18,7 @@
     NSArray *divisions = @[@"Kitchen",@"Living room",@"Master bedroom",@"Guest's bedroom"];
     self.dataSource = [[DivisionsDataSource alloc] initWith: divisions];
     self.tableView.dataSource = self.dataSource;
+    self.tableView.tableFooterView = [[UIView alloc] init];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
