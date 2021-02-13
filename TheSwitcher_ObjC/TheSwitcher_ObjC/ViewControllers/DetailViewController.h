@@ -6,11 +6,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Formatting.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface DetailViewController : UIViewController
-@property UIImage *image;
 @property NSString *division;
 @property bool status;
 @end

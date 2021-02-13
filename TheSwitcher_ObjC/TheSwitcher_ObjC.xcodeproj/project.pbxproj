@@ -13,12 +13,13 @@
 		79C77B7E25D50D0500E6C86C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C77B7D25D50D0500E6C86C /* Assets.xcassets */; };
 		79C77B8125D50D0500E6C86C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C77B7F25D50D0500E6C86C /* LaunchScreen.storyboard */; };
 		79C77B8425D50D0500E6C86C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77B8325D50D0500E6C86C /* main.m */; };
-		79C77B8E25D50D0500E6C86C /* TheSwitcher_ObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77B8D25D50D0500E6C86C /* TheSwitcher_ObjcTests.m */; };
 		79C77B9925D50D0500E6C86C /* TheSwitcher_ObjcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77B9825D50D0500E6C86C /* TheSwitcher_ObjcUITests.m */; };
 		79C77BB125D50D7400E6C86C /* DivisionsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77BB025D50D7400E6C86C /* DivisionsDataSource.m */; };
 		79C77BBA25D50D8800E6C86C /* DivisionsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77BB925D50D8800E6C86C /* DivisionsCell.m */; };
 		79C77BC025D50D9A00E6C86C /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77BBF25D50D9A00E6C86C /* ListViewController.m */; };
 		79C77BC625D50DA500E6C86C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77BC525D50DA500E6C86C /* DetailViewController.m */; };
+		79C77BF025D827DA00E6C86C /* FormattingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77BEF25D827D900E6C86C /* FormattingTests.m */; };
+		79C77BF625D82AFB00E6C86C /* Formatting.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C77BF525D82AFB00E6C86C /* Formatting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +51,6 @@
 		79C77B8225D50D0500E6C86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79C77B8325D50D0500E6C86C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79C77B8925D50D0500E6C86C /* TheSwitcher_ObjcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheSwitcher_ObjcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		79C77B8D25D50D0500E6C86C /* TheSwitcher_ObjcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheSwitcher_ObjcTests.m; sourceTree = "<group>"; };
 		79C77B8F25D50D0500E6C86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79C77B9425D50D0500E6C86C /* TheSwitcher_ObjcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheSwitcher_ObjcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C77B9825D50D0500E6C86C /* TheSwitcher_ObjcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheSwitcher_ObjcUITests.m; sourceTree = "<group>"; };
@@ -63,6 +63,9 @@
 		79C77BBF25D50D9A00E6C86C /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		79C77BC425D50DA500E6C86C /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		79C77BC525D50DA500E6C86C /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		79C77BEF25D827D900E6C86C /* FormattingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FormattingTests.m; sourceTree = "<group>"; };
+		79C77BF425D82AFB00E6C86C /* Formatting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Formatting.h; sourceTree = "<group>"; };
+		79C77BF525D82AFB00E6C86C /* Formatting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Formatting.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				79C77B7F25D50D0500E6C86C /* LaunchScreen.storyboard */,
 				79C77B8225D50D0500E6C86C /* Info.plist */,
 				79C77B8325D50D0500E6C86C /* main.m */,
+				79C77BF425D82AFB00E6C86C /* Formatting.h */,
+				79C77BF525D82AFB00E6C86C /* Formatting.m */,
 			);
 			path = TheSwitcher_Objc;
 			sourceTree = "<group>";
@@ -128,8 +133,8 @@
 		79C77B8C25D50D0500E6C86C /* TheSwitcher_ObjcTests */ = {
 			isa = PBXGroup;
 			children = (
-				79C77B8D25D50D0500E6C86C /* TheSwitcher_ObjcTests.m */,
 				79C77B8F25D50D0500E6C86C /* Info.plist */,
+				79C77BEF25D827D900E6C86C /* FormattingTests.m */,
 			);
 			path = TheSwitcher_ObjcTests;
 			sourceTree = "<group>";
@@ -310,6 +315,7 @@
 				79C77BC025D50D9A00E6C86C /* ListViewController.m in Sources */,
 				79C77B7625D50D0100E6C86C /* SceneDelegate.m in Sources */,
 				79C77BB125D50D7400E6C86C /* DivisionsDataSource.m in Sources */,
+				79C77BF625D82AFB00E6C86C /* Formatting.m in Sources */,
 				79C77BBA25D50D8800E6C86C /* DivisionsCell.m in Sources */,
 				79C77BC625D50DA500E6C86C /* DetailViewController.m in Sources */,
 			);
@@ -319,7 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79C77B8E25D50D0500E6C86C /* TheSwitcher_ObjcTests.m in Sources */,
+				79C77BF025D827DA00E6C86C /* FormattingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

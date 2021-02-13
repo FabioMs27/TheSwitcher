@@ -8,7 +8,7 @@
 import Foundation
 
 extension String {
-    var formatting: String {
+    var formattedDivision: String {
         "Your \(self) light is"
     }
 }

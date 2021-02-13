@@ -9,16 +9,17 @@ import UIKit
 
 class ListViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
-    let dataSource = DivisionsDataSource()
+    var dataSource: DivisionsDataSource?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dataSource.divisions = [
+        let divisions = [
             "Kitchen",
             "Living room",
             "Master bedroom",
             "Guest's bedroom"
         ]
+        dataSource = DivisionsDataSource(With: divisions)
         tableView.dataSource = dataSource
     }
     

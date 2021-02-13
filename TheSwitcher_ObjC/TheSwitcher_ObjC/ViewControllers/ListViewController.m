@@ -23,20 +23,16 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-    if (indexPath) {
-        [self.tableView deselectRowAtIndexPath: indexPath animated: true];
-    }
+    [self.tableView deselectRowAtIndexPath: indexPath animated: true];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
     DetailViewController *detailViewController = [segue destinationViewController];
     DivisionsCell *cell = [self.tableView cellForRowAtIndexPath: indexPath];
-    if (indexPath && detailViewController && cell) {
-        bool isOn = [cell.lightSwitch isOn];
-        detailViewController.status = isOn;
-        detailViewController.division = cell.divisionLabel.text;
-    }
+    bool isOn = [cell.lightSwitch isOn];
+    detailViewController.status = isOn;
+    detailViewController.division = cell.divisionLabel.text;
 }
 
 

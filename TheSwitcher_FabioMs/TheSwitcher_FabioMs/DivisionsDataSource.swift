@@ -8,7 +8,11 @@
 import UIKit
 
 class DivisionsDataSource: NSObject {
-    var divisions = [String]()
+    var divisions: [String]
+    
+    init(With divisions: [String]) {
+        self.divisions = divisions
+    }
 }
 
 extension DivisionsDataSource: UITableViewDataSource {

@@ -12,12 +12,12 @@ class DetailViewController: UIViewController {
     @IBOutlet weak private var divisionTextLabel: UILabel!
     @IBOutlet weak private var lampStateLabel: UILabel!
     
-    var division = String()
+    var division = ""
     var lampState = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        divisionTextLabel.text = division.formatting
+        divisionTextLabel.text = division.formattedDivision
         lampStateLabel.text = lampState ? "ON" : "OFF"
         lampImageView.image = lampState ? #imageLiteral(resourceName: "light_image_ON") : #imageLiteral(resourceName: "light_image_OFF")
         navigationItem.title = division
